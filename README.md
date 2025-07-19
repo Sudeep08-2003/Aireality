@@ -1,2 +1,0 @@
-# AiProject
-Internship Project
