@@ -70,6 +70,10 @@ app.post('/api/onboarding', async (req, res) => {
   }
 });
 
+app.get('/', (req, res) => {
+  res.send('🚀 Backend is connected and running!');
+});
+
 app.listen(PORT, () => {
   console.log(`🚀 Server running on http://localhost:${PORT}`);
 });
